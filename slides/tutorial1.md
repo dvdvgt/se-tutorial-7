@@ -63,7 +63,7 @@ lang: en-GB
 | `[CMD1] | [CMD1]` | redirects the output of `CMD1` to `CMD2` as input |
 | `[CMD] > out.txt` | writes the output of `CMD` to the file `out.txt` |
 | `[CMD] >> out.txt` | appends the output of `CMD` to the file `out.txt` |
-| `man CMD` | shows the manuel/documentation for a given command |
+| `man CMD` | shows the manual/documentation for a given command |
 
 # Basic terminal usage
 
