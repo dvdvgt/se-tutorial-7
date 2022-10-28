@@ -6,7 +6,7 @@ date: "October 28th, 2022"
 fonttheme: "metropolis"
 urlcolor: blue
 linkstyle: bold
-linkcolor: blue
+linkcolor: black
 lang: en-GB
 ---
 
@@ -19,7 +19,7 @@ lang: en-GB
 - Please bring your laptop if possible
 - Relevant material presented during the tutorial will be uploaded to [Github](https://github.com/dvdvgt/se-tutorial-7)
 
-## Format of the tutorial
+### Format of the tutorial
 
 - Discuss common mistakes in your assignments
 - Provide additional useful knowledge with respect to the lecture, e.g., basic terminal usage
@@ -42,7 +42,7 @@ lang: en-GB
 2. Make sense of the following command and decide what the output might be:
     - `cat file.txt | sort  | uniq > out.txt`
 
-# Basic terminal usage: useful commands
+## Useful commands
 
 | command | usage |
 |---------|-------|
@@ -54,7 +54,7 @@ lang: en-GB
 | `touch [FILE]` | creates a new file |
 | `mkdir [-p] [FILE]` | creates a new directory |
 
-# Basic terminal usage: useful commands
+## Useful commands
 
 | command | usage |
 |---|---|
@@ -65,7 +65,7 @@ lang: en-GB
 | `[CMD] >> out.txt` | appends the output of `CMD` to the file `out.txt` |
 | `man CMD` | shows the manual/documentation for a given command |
 
-# Basic terminal usage
+## Questions
 
 **Are there any questions?**
 
@@ -77,7 +77,7 @@ lang: en-GB
 2. Make sense of `git reflog`
 3. Figure out the use of `git stash`
 
-# git recap
+## Summary
 
 ::: columns
 
@@ -93,21 +93,21 @@ lang: en-GB
 
 :::
 
-# git recap
+## Working Copy vs. Staging Area vs. Repository
 
-## working copy
+Working Copy
 
-The **working copy** the project folder that is currently under git version control. The working copy consists of "normal" files outside the `.git`, that can be altered.
+: The **working copy** the project folder that is currently under git version control. The working copy consists of "normal" files outside the `.git`, that can be altered.
 
-## staging area
+Staging Area
 
-The **staging area** is like a drafting area. It is also called **index** and contains snapshots of files to be commited.
+: The **staging area** is like a drafting area. It is also called **index** and contains snapshots of files to be commited.
 
-## repository
+Repository
 
-The **repository** is represented by the `.git` folder. The repository **contains the whole history** of the project, e.g., commits and file snapshots. For example, this is also what is stored on Github.
+: The **repository** is represented by the `.git` folder. The repository **contains the whole history** of the project, e.g., commits and file snapshots. For example, this is also what is stored on Github.
 
-# Basic git usage: common commands
+## Common commands
 
 ::: columns
 
@@ -129,7 +129,7 @@ The **repository** is represented by the `.git` folder. The repository **contain
 
 :::
 
-# Basic git usage: other useful commands and options
+## Other useful commands and options
 
 - `git add -p`
   - interactively add files
@@ -140,12 +140,12 @@ The **repository** is represented by the `.git` folder. The repository **contain
 - `git rm` *file*
   - remove the working copy of a file and reflect the change in the index
 
-# Questions?
+## Questions?
 
 **Are there any questions?**
 
-# Basic git usage: useful links
+## Useful links
 
-- git visualizer: \url{https://git-school.github.io/visualizing-git/}
-- git branching tutorial: \url{https://learngitbranching.js.org/}
-- git cheat sheet: \url{https://training.github.com/downloads/github-git-cheat-sheet.pdf}
+- git visualizer: <https://git-school.github.io/visualizing-git/>
+- git branching tutorial: <https://learngitbranching.js.org/>
+- git cheat sheet: <https://training.github.com/downloads/github-git-cheat-sheet.pdf>
