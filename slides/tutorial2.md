@@ -15,7 +15,7 @@ lang: en-GB
 1. Discuss most the common errors in the last homework
 2. Brief recap of Git Branching
 3. Do some exercises on <https://learngitbranching.js.org/>
-4. Group exercise
+4. Homework 2 discussion
 
 # Homework discussion
 
@@ -86,8 +86,8 @@ lang: en-GB
 
 ::: column
 - The main branch is always production-ready
-- Feature branches are used making changes to main
-- If the feature is tested it may be merged into main
+- Feature branches are used for making changes to main
+- If the feature is tested, it may be merged into main
 :::
 
 ::: column
@@ -105,7 +105,7 @@ lang: en-GB
 - The main branch is only used for new releases
 - Features for new releases are gathered on the develop branch
 - New feature branches, branch from the develop branch 
-- Besides the develop branch, only hotfixes directly branch from and back into main
+- Besides the develop branch, only hotfixes directly branch off from main
 :::
 
 ::: column
