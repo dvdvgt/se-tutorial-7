@@ -16,3 +16,5 @@ build-all:
         if ".md" in file:
             subprocess.run(["just", "build", file.removesuffix(".md")])
 
+add NEW:
+    cp slides/template.md slides/{{NEW}}.md
