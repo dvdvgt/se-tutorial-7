@@ -1,0 +1,122 @@
+{
+    "branches": {
+        "main": {
+            "remoteTrackingBranchID": null,
+            "remote": false,
+            "target": "C6",
+            "id": "main",
+            "type": "branch"
+        },
+        "feature-1": {
+            "remoteTrackingBranchID": null,
+            "remote": false,
+            "target": "C5",
+            "id": "feature",
+            "type": "branch"
+        },
+        "feature-2": {
+            "remoteTrackingBranchID": null,
+            "remote": false,
+            "target": "C8",
+            "id": "feature-2",
+            "type": "branch"
+        }
+    },
+    "commits": {
+        "C0": {
+            "type": "commit",
+            "parents": [],
+            "author": "Peter Cottle",
+            "createTime": "Fri Nov 04 2022 00:27:40 GMT+0100 (Central European Standard Time)",
+            "commitMessage": "Quick commit. Go Bears!",
+            "id": "C0",
+            "rootCommit": true
+        },
+        "C1": {
+            "type": "commit",
+            "parents": [
+                "C0"
+            ],
+            "author": "Peter Cottle",
+            "createTime": "Fri Nov 04 2022 00:27:40 GMT+0100 (Central European Standard Time)",
+            "commitMessage": "Quick commit. Go Bears!",
+            "id": "C1"
+        },
+        "C2": {
+            "type": "commit",
+            "parents": [
+                "C1"
+            ],
+            "author": "Peter Cottle",
+            "createTime": "Fri Nov 04 2022 00:27:40 GMT+0100 (Central European Standard Time)",
+            "commitMessage": "Quick commit. Go Bears!",
+            "id": "C2"
+        },
+        "C3": {
+            "type": "commit",
+            "parents": [
+                "C1"
+            ],
+            "author": "Peter Cottle",
+            "createTime": "Fri Nov 04 2022 00:27:40 GMT+0100 (Central European Standard Time)",
+            "commitMessage": "Quick commit. Go Bears!",
+            "id": "C3"
+        },
+        "C4": {
+            "type": "commit",
+            "parents": [
+                "C3"
+            ],
+            "author": "Peter Cottle",
+            "createTime": "Fri Nov 04 2022 00:27:40 GMT+0100 (Central European Standard Time)",
+            "commitMessage": "Quick commit. Go Bears!",
+            "id": "C4"
+        },
+        "C5": {
+            "type": "commit",
+            "parents": [
+                "C4"
+            ],
+            "author": "Peter Cottle",
+            "createTime": "Fri Nov 04 2022 00:27:40 GMT+0100 (Central European Standard Time)",
+            "commitMessage": "Quick commit. Go Bears!",
+            "id": "C5"
+        },
+        "C6": {
+            "type": "commit",
+            "parents": [
+                "C2"
+            ],
+            "author": "Peter Cottle",
+            "createTime": "Fri Nov 04 2022 00:27:40 GMT+0100 (Central European Standard Time)",
+            "commitMessage": "Quick commit. Go Bears!",
+            "id": "C6"
+        },
+        "C7": {
+            "type": "commit",
+            "parents": [
+                "C2"
+            ],
+            "author": "Peter Cottle",
+            "createTime": "Fri Nov 04 2022 00:27:40 GMT+0100 (Central European Standard Time)",
+            "commitMessage": "Quick commit. Go Bears!",
+            "id": "C7"
+        },
+        "C8": {
+            "type": "commit",
+            "parents": [
+                "C7"
+            ],
+            "author": "Peter Cottle",
+            "createTime": "Fri Nov 04 2022 00:27:40 GMT+0100 (Central European Standard Time)",
+            "commitMessage": "Quick commit. Go Bears!",
+            "id": "C8"
+        }
+    },
+    "tags": {},
+    "HEAD": {
+        "target": "main",
+        "id": "HEAD",
+        "type": "general ref"
+    }
+}
