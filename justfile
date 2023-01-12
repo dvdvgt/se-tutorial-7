@@ -5,7 +5,7 @@ default:
     echo 'Hello, world!'
 
 build TUTORIAL:
-	pandoc slides/{{TUTORIAL}}.md -t beamer -o slides/{{TUTORIAL}}.pdf --include-in-header=style.tex --slide-level=2
+	pandoc slides/{{TUTORIAL}}.md -t beamer -o slides/{{TUTORIAL}}.pdf --include-in-header=style.tex --slide-level=2 --highlight-style pygments.theme
 
 build-all:
     #!/usr/bin/env python3
