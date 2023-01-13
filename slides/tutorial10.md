@@ -142,7 +142,7 @@ def reverse[T](list: List[T]): List[T] = {
 
 ---
 
-### Solution
+### One possible solution
 
 ```scala
 def reverse[T](list: List[T]): List[T] = {
@@ -154,6 +154,7 @@ def reverse[T](list: List[T]): List[T] = {
   result
 } ensuring { xs => 
   xs != null
+  && xs.length == list.length
   && xs.forall(list.contains(_))
   && list.forall(xs.contains(_))
   && xs.head == list.last
@@ -167,7 +168,7 @@ def reverse[T](list: List[T]): List[T] = {
 
 - Test coverage meassures how much code your tests cover
 - There is a distinction between **code coverage**, **test coverage** and **control-flow coverage**
-  - Test coverage is meassured by (but not limited to) how much the the tests the code consisting of e.g. expressions, functions, classes
+  - Test coverage is meassured by (but not limited to) how much the tests cover the code consisting of e.g. expressions, functions, classes
   - Test coverage is also meassured by the control-flow coverage, that is, how many branches in match or if-else expressions/statements have been executed by the tests
 
 ## Unit tests (example based tests)
@@ -189,7 +190,7 @@ Instead of testing with handpicked examples, we formulate general properties we 
 
 \footnotesize
 ```scala
-// unit teste
+// unit tests
 assert(List().reverse == List())
 assert(List(1,2,3).reverse == List(3,2,1))
 ...
