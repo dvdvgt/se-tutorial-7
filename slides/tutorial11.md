@@ -12,7 +12,7 @@ lang: en-GB
 
 ## Agenda
 
-1. **No** discussion of common mistakes :(
+1. **No** discussion of homework :(
 2. Exam Preview
 3. UML
 4. Exercises
