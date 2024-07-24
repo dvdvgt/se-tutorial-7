@@ -1,4 +1,4 @@
-This repository contains all materials and other things of interest from weekly tutorial.
+This repository contains all materials and other things of interest from the weekly tutorials.
 
 # Usage
 
